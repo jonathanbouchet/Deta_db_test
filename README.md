@@ -17,3 +17,4 @@
 ```
 - there's a local `stauth` (streamlit_authenticator) repo because the one in the initial repo has a very weak check on email validity
 - password is encrypted by streamlit_authenticator, using `bcrypt`
+- how to run: `streamlit run main.py --server.headless true`
