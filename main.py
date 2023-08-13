@@ -1,3 +1,5 @@
+import sys
+sys.path.append('streamlit_authenticator')
 import streamlit_authenticator as stauth
 from utils import *
 
